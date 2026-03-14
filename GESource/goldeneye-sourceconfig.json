@@ -1,0 +1,53 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "Name shown in the server browser",
+        "Keywords": "server,name",
+        "FieldName": "ServerName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ServerName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "GoldenEye: Source Server",
+        "Placeholder": "GoldenEye: Source Server",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "Maximum players allowed",
+        "Keywords": "max,players",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "16",
+        "Placeholder": "16",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Default Map",
+        "Category": "Server Settings",
+        "Description": "Map loaded when server starts",
+        "Keywords": "default,map",
+        "FieldName": "DefaultMap",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "DefaultMap",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "ge_archives",
+        "Placeholder": "ge_archives",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]

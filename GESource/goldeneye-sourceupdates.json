@@ -1,0 +1,12 @@
+[
+    {
+        "UpdateStageName": "Install Source 2007 Dedicated Server",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceArgs": "310",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    }
+]

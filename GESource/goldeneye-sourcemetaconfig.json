@@ -1,0 +1,7 @@
+[
+    {
+        "ConfigFile": "gesource/cfg/server.cfg",
+        "ConfigType": "kvp",
+        "AutoMap": true
+    }
+]
