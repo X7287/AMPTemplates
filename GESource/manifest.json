@@ -1,10 +1,22 @@
 {
-    "id": "e38cb7c6-79e1-4f35-b311-97545278754b",
-    "authors": [
-        "Zach - Made with AMP Config Generator"
-    ],
-    "origin": "https://github.com/Zach - Made with AMP Config Generator/AMPTemplates.git",
-    "url": "https://github.com/Zach - Made with AMP Config Generator/AMPTemplates",
-    "imagefile": "",
-    "prefix": "Zach - Made with AMP Config Generator"
+  "Name": "GoldenEye: Source",
+  "Author": "Zach - Made with AMP Config Generator",
+  "Prefix": "GESource",
+  "Description": "Custom GoldenEye: Source dedicated server template for AMP 2.7",
+  "Game": "gesource",
+  "Version": "1.0.0",
+  "Icon": "",
+  "Files": [
+    "goldeneye-source.kvp",
+    "goldeneye-sourceconfig.json",
+    "goldeneye-sourcemetaconfig.json",
+    "goldeneye-sourceports.json",
+    "goldeneye-sourceupdates.json"
+  ],
+  "InstanceType": "Generic",
+  "RequiredFiles": [
+    "goldeneye-source.kvp",
+    "manifest.json"
+  ],
+  "DefaultArguments": "-game gesource -console {{$PlatformArgs}} {{$FormattedArgs}}"
 }
